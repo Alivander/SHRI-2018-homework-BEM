@@ -7,9 +7,9 @@ export default decl({
   block: 'Laik',
   tag: 'button',
   attrs({ type }) {
-        return {
-          type: 'button'
-        };
+    return {
+      type: 'button'
+    };
   },
   content() {
     return <Bem block='VisuallyHidden' tag='span'>Мне нравится!</Bem>;

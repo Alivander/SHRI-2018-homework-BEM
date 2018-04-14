@@ -10,9 +10,9 @@ export default decl({
   attrs({href}) {
     return {
       href: '#'
-    };
+    }
   },
-  content({title}) {
-    return <Title text={title}/>;
+  content({title, titleColor}) {
+    return <Title text={title} color={titleColor}/>;
   }
 });

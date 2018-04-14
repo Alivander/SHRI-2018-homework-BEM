@@ -1,0 +1,15 @@
+@import "shared/variables.scss";
+
+.Image {
+  display: flex;
+  flex-direction: column;
+}
+
+.Image img {
+  flex-grow: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}

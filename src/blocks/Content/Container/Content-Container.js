@@ -1,17 +1,19 @@
-import React, { Fragment } from 'react';
-import { decl, Bem } from 'bem-react-core';
+import React from 'react';
+import { decl } from 'bem-react-core';
 
-import 'b:VisuallyHidden';
+import Card from 'b:Card';
+
+import dataStub from '../../../server-stub/data';
 
 export default decl({
   block: 'Content',
   elem: 'Container',
   tag: 'main',
+  state: {
+    data: dataStub
+  },
   content() {
-    return (
-      <Fragment>
-        //<Bem block='VisuallyHidden' tag='h2'>Персональная лента публикаций</Bem>
-      </Fragment>
-    );
+    const data = this.state.data;
+    return data.map((item) => <Card {...item}/>);
   }
 });

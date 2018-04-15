@@ -1,6 +1,16 @@
 @import "shared/variables.scss";
 
 .Page {
+  @media (min-width: $screen-2) {
+    width: $screen-2;
+    font-size: 14px;
+  }
+
+  @media (min-width: $screen-3) {
+    width: 704px;
+    padding: 0;
+  }
+
   @media (min-width: $screen-4) {
     width: 1056px;
     font-size: 20px;

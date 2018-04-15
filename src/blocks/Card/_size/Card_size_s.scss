@@ -1,0 +1,99 @@
+@import "shared/variables.scss";
+
+.Card_size_s {
+  @media (min-width: $screen-2) {
+    grid-column: span 1;
+    height: 235px;
+    overflow: hidden;
+  }
+
+  @media (min-width: $screen-3) {
+    position: relative;
+    grid-column: span 2;
+    flex-direction: column;
+    height: 235px;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+
+  @media (min-width: $screen-4) {
+    height: 340px;
+  }
+}
+
+.Card_size_s .Card-Wrapper {
+  position: relative;
+
+  @media (min-width: $screen-2) {
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.Card_size_s .Card-Title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+
+  @media (min-width: $screen-3) {
+    max-height: 1em * 1.2 * 3;
+    overflow: hidden;
+  }
+
+  @media (min-width: $screen-3) {
+    font-size: 26px;
+  }
+}
+
+.Card_size_s .Card-Picture {
+  width: 112px;
+  height: 90px;
+
+  @media (min-width: $screen-2) {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 224px;
+  }
+
+  @media (min-width: $screen-3) {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+  }
+}
+
+.Card_size_s .Card-Description {
+  height: 1em * 1.43 * 3; // font-size * line-height * count string
+  line-height: 1.43;
+  margin-bottom: 10px;
+  overflow: hidden;
+
+  @media (min-width: $screen-2) {
+    flex-grow: 1;
+  }
+}
+
+.Card_size_s .Card__Buttons {
+  display: flex;
+  align-items: center;
+
+  @media (min-width: $screen-3) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #ffffff;
+  }
+}
+
+.Card_size_s .Card-Author {
+  margin-right: auto;
+  font-weight: 700;
+  font-style: normal;
+}

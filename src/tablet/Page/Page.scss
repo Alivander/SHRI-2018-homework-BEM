@@ -1,0 +1,8 @@
+@import "shared/variables.scss";
+
+.Page {
+  @media (min-width: $screen-3) {
+    width: 704px;
+    padding: 0;
+  }
+}

@@ -1,0 +1,12 @@
+@import "shared/variables.scss";
+
+.Card {
+  @media (min-width: $screen-3) {
+    position: relative;
+    grid-column: span 2;
+    flex-direction: column;
+    height: 235px;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+}

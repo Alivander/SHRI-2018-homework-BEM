@@ -7,12 +7,6 @@
     flex-wrap: wrap;
     overflow: hidden;
   }
-
-  @media (min-width: $screen-3) {
-    grid-column: span 3;
-    flex-direction: column;
-    height: 305px;
-  }
 }
 
 .Card_size_m .Card-Wrapper {
@@ -28,12 +22,6 @@
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 19px;
-
-  @media (min-width: $screen-3) {
-    flex-shrink: 0;
-    max-height: 3.6em;
-    overflow: hidden;
-  }
 }
 
 .Card_size_m .Card-Picture {
@@ -46,12 +34,6 @@
     margin-right: 10px;
     margin-bottom: 0;
   }
-
-  @media (min-width: $screen-3) {
-    flex-grow: 1;
-    width: 100%;
-    margin-bottom: 8px;
-  }
 }
 
 .Card_size_m .Card-Description {
@@ -62,11 +44,6 @@
   @media (min-width: $screen-2) {
     width: 290px;
     flex-grow: 1;
-  }
-
-  @media (min-width: $screen-3) {
-    width: auto;
-    padding-right: 40px;
   }
 }
 
@@ -82,12 +59,6 @@
 
 .Card_size_m .Card-Action {
   right: 35px;
-
-  @media (min-width: $screen-3) {
-    top: 0;
-    right: 0;
-    bottom: auto;
-  }
 }
 
 .Card_size_m .Card-Laik {

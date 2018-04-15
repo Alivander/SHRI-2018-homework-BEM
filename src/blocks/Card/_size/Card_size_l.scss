@@ -7,15 +7,6 @@
     height: 122px;
     overflow: hidden;
   }
-
-  @media (min-width: $screen-3) {
-    position: relative;
-    grid-column: span 6;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 16px;
-    height: 245px;
-  }
 }
 
 .Card_size_l .Card-Wrapper {
@@ -23,13 +14,6 @@
 
   @media (min-width: $screen-2) {
     width: 230px;
-  }
-
-  @media (min-width: $screen-3) {
-    grid-column: span 1;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
   }
 }
 
@@ -42,14 +26,6 @@
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 19px;
-
-  @media (min-width: $screen-3) {
-    flex-shrink: 0;
-    height: 2.5em;
-    max-height: 3.6em;
-    margin-bottom: 10px;
-    overflow: hidden;
-  }
 }
 
 .Card_size_l .Card-Picture {
@@ -62,46 +38,18 @@
     margin-right: 10px;
     margin-bottom: 0;
   }
-
-  @media (min-width: $screen-3) {
-    grid-column: span 2;
-    flex-grow: 0;
-    flex-shrink: 0;
-    width: 464px;
-    height: 245px;
-  }
 }
 
 .Card_size_l .Card-Description {
   max-height: 1em * 1.43 * 3; // font-size * line-height * count string
   line-height: 1.43;
   overflow: hidden;
-
-  @media (min-width: $screen-3) {
-    flex-grow: 1;
-    flex-shrink: 1;
-    max-height: 1em * 1.43 * 8;
-    margin-bottom: auto;
-  }
-}
-
-.Card_size_l .Card-Buttons {
-  @media (min-width: $screen-3) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: auto;
-  }
 }
 
 .Card_size_l .Card-Action,
 .Card_size_l .Card-Laik {
   position: absolute;
   right: 0;
-
-  @media (min-width: $screen-3) {
-    position: static;
-  }
 }
 
 .Card_size_l .Card-Action {

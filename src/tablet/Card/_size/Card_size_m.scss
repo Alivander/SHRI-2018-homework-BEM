@@ -1,0 +1,41 @@
+@import "shared/variables.scss";
+
+.Card_size_m {
+  @media (min-width: $screen-3) {
+    grid-column: span 3;
+    flex-direction: column;
+    height: 305px;
+  }
+}
+
+.Card_size_m .Card-Title {
+  @media (min-width: $screen-3) {
+    flex-shrink: 0;
+    max-height: 3.6em;
+    overflow: hidden;
+  }
+}
+
+.Card_size_m .Card-Picture {
+  @media (min-width: $screen-3) {
+    flex-grow: 1;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+
+.Card_size_m .Card-Description {
+  @media (min-width: $screen-3) {
+    width: auto;
+    padding-right: 40px;
+  }
+}
+
+
+.Card_size_m .Card-Action {
+  @media (min-width: $screen-3) {
+    top: 0;
+    right: 0;
+    bottom: auto;
+  }
+}

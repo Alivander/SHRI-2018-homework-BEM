@@ -1,26 +1,15 @@
-import React, { Fragment } from 'react';
-import { decl, Bem } from 'bem-react-core';
+import { decl } from 'bem-react-core';
 
-import Image from 'b:Image';
-import Laik from 'b:Laik';
-import Action from 'b:Action';
-import Link from 'e:Link';
-import 'e:Wrapper';
-import 'e:Picture';
+import 'm:content=image|text';
+import 'm:size=l|m|s';
 
 export default decl({
-  block: 'Card',
+  block : 'Card',
   tag: 'article',
-  content({title, titleColor, description, image}) {
-    return (
-      <Fragment>
-        <Link title={title} titleColor={titleColor}/>
-        <Bem elem='Wrapper'>
-          <Image mix={{ block : 'Card', elem : 'Picture' }} title={title} image={image}/>
-          <Action/>
-          <Laik/>
-        </Bem>
-      </Fragment>
-    );
+  mods({ size, content }) {
+    if (content) {
+      return { size, content };
+    }
+    return { size };
   }
 });

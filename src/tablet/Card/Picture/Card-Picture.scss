@@ -1,6 +1,12 @@
 @import "shared/variables.scss";
 
 .Card-Picture {
+  @media (min-width: $screen-2) {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 224px;
+  }
+
   @media (min-width: $screen-3) {
     flex-grow: 1;
     flex-shrink: 1;

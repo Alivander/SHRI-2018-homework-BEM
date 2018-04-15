@@ -23,8 +23,8 @@ module.exports = {
   ],
   // remove sets to build one universal bundle for index.html
   sets: {
-    desktop: 'common desktop',
-    tablet: 'common tablet',
+    desktop: 'common desktop tablet mobile',
+    tablet: 'common tablet mobile',
     mobile: 'common mobile'
   },
   modules: {

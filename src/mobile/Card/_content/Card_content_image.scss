@@ -1,0 +1,13 @@
+@import "shared/variables.scss";
+
+.Card_content_image {
+  @media (min-width: $screen-2) {
+    flex-direction: column;
+  }
+}
+
+.Card_content_image .Card-Title {
+  @media (min-width: $screen-2) {
+    margin-right: 0;
+  }
+}

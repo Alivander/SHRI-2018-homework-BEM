@@ -3,20 +3,12 @@
 .Card_content_image {
   display: flex;
   align-items: center;
-
-  @media (min-width: $screen-2) {
-    flex-direction: column;
-  }
 }
 
 .Card_content_image .Card-Title {
   max-height: 1em * 1.2 * 4; // font-size * line-height * count string
   margin-right: 10px;
   overflow: hidden;
-
-  @media (min-width: $screen-2) {
-    margin-right: 0;
-  }
 }
 
 .Card_content_image .Card-Action {

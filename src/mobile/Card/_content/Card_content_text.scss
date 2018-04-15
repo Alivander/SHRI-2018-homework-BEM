@@ -1,0 +1,8 @@
+@import "shared/variables.scss";
+
+.Card_content_text {
+  @media (min-width: $screen-2) {
+    display: flex;
+    flex-direction: column;
+  }
+}

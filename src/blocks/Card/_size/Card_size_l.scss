@@ -1,20 +1,7 @@
 @import "shared/variables.scss";
 
-.Card_size_l {
-  @media (min-width: $screen-2) {
-    grid-column: span 2;
-    display: flex;
-    height: 122px;
-    overflow: hidden;
-  }
-}
-
 .Card_size_l .Card-Wrapper {
   position: relative;
-
-  @media (min-width: $screen-2) {
-    width: 230px;
-  }
 }
 
 .Card_size_l .Card-Link {
@@ -32,12 +19,6 @@
   width: 232px;
   height: 122px;
   margin-bottom: 10px;
-
-  @media (min-width: $screen-2) {
-    flex-shrink: 0;
-    margin-right: 10px;
-    margin-bottom: 0;
-  }
 }
 
 .Card_size_l .Card-Description {
@@ -59,21 +40,8 @@
     bottom: calc(100% + 10px);
     right: 35px;
   }
-
-  @media (min-width: $screen-2) {
-    top: 0;
-    right: auto;
-    bottom: auto;
-    left: -40px;
-  }
 }
 
 .Card_size_l .Card-Laik {
   bottom: calc(100% + 10px);
-
-  @media (min-width: $screen-2) {
-    right: auto;
-    bottom: 10px;
-    left: -40px;
-  }
 }

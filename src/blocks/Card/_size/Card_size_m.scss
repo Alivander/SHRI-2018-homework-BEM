@@ -1,14 +1,5 @@
 @import "shared/variables.scss";
 
-.Card_size_m {
-  @media (min-width: $screen-2) {
-    grid-column: span 2;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-  }
-}
-
 .Card_size_m .Card-Wrapper {
   position: relative;
 }
@@ -28,33 +19,18 @@
   width: 172px;
   height: 90px;
   margin-bottom: 10px;
-
-  @media (min-width: $screen-2) {
-    flex-shrink: 0;
-    margin-right: 10px;
-    margin-bottom: 0;
-  }
 }
 
 .Card_size_m .Card-Description {
   max-height: 1em * 1.43 * 3; // font-size * line-height * count string
   line-height: 1.43;
   overflow: hidden;
-
-  @media (min-width: $screen-2) {
-    width: 290px;
-    flex-grow: 1;
-  }
 }
 
 .Card_size_m .Card-Action,
 .Card_size_m .Card-Laik {
   position: absolute;
   bottom: calc(100% + 10px);
-
-  @media (min-width: $screen-2) {
-    bottom: 0;
-  }
 }
 
 .Card_size_m .Card-Action {

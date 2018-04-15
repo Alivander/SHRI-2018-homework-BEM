@@ -1,0 +1,41 @@
+@import "shared/variables.scss";
+
+.Card_size_l {
+  @media (min-width: $screen-2) {
+    grid-column: span 2;
+    display: flex;
+    height: 122px;
+    overflow: hidden;
+  }
+}
+
+.Card_size_l .Card-Wrapper {
+  @media (min-width: $screen-2) {
+    width: 230px;
+  }
+}
+
+.Card_size_l .Card-Picture {
+  @media (min-width: $screen-2) {
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+}
+
+.Card_size_l .Card-Action {
+  @media (min-width: $screen-2) {
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: -40px;
+  }
+}
+
+.Card_size_l .Card-Laik {
+  @media (min-width: $screen-2) {
+    right: auto;
+    bottom: 10px;
+    left: -40px;
+  }
+}

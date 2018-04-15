@@ -16,10 +16,6 @@
     grid-column-gap: 16px;
     height: 245px;
   }
-
-  @media (min-width: $screen-4) {
-    height: 365px;
-  }
 }
 
 .Card_size_l .Card-Wrapper {
@@ -54,10 +50,6 @@
     margin-bottom: 10px;
     overflow: hidden;
   }
-
-  @media (min-width: $screen-4) {
-    font-size: 26px;
-  }
 }
 
 .Card_size_l .Card-Picture {
@@ -78,11 +70,6 @@
     width: 464px;
     height: 245px;
   }
-
-  @media (min-width: $screen-4) {
-    width: 696px;
-    height: 365px;
-  }
 }
 
 .Card_size_l .Card-Description {
@@ -95,10 +82,6 @@
     flex-shrink: 1;
     max-height: 1em * 1.43 * 8;
     margin-bottom: auto;
-  }
-
-  @media (min-width: $screen-4) {
-    max-height: 1em * 1.43 * 9;
   }
 }
 

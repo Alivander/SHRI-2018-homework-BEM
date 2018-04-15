@@ -1,0 +1,7 @@
+@import "shared/variables.scss";
+
+.Card {
+  @media (min-width: $screen-4) {
+    height: 340px;
+  }
+}

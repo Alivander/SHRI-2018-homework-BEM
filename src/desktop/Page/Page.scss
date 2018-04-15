@@ -1,0 +1,19 @@
+@import "shared/variables.scss";
+
+.Page {
+  @media (min-width: $screen-4) {
+    width: 1056px;
+    font-size: 20px;
+  }
+}
+
+a {
+  &:focus,
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+button {
+  cursor: pointer;
+}

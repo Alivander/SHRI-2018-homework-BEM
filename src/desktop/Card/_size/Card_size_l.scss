@@ -1,0 +1,26 @@
+@import "shared/variables.scss";
+
+.Card_size_l {
+@media (min-width: $screen-4) {
+    height: 365px;
+  }
+}
+
+.Card_size_l .Card-Title {
+@media (min-width: $screen-4) {
+    font-size: 26px;
+  }
+}
+
+.Card_size_l .Card-Picture {
+  @media (min-width: $screen-4) {
+    width: 696px;
+    height: 365px;
+  }
+}
+
+.Card_size_l .Card-Description {
+  @media (min-width: $screen-4) {
+    max-height: 1em * 1.43 * 9;
+  }
+}

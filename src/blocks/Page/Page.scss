@@ -51,11 +51,6 @@ html {
     width: 704px;
     padding: 0;
   }
-
-  @media (min-width: $screen-4) {
-    width: 1056px;
-    font-size: 20px;
-  }
 }
 
 *,
@@ -66,11 +61,6 @@ html {
 
 a {
   text-decoration: none;
-
-  &:focus,
-  &:hover {
-    opacity: 0.75;
-  }
 
   &:active {
     opacity: 0.5;
@@ -83,8 +73,4 @@ img {
 
 input {
   font: inherit;
-}
-
-button {
-  cursor: pointer;
 }

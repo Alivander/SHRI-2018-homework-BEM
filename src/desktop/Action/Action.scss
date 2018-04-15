@@ -1,0 +1,12 @@
+.Action {
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    opacity: 0.75;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}

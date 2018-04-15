@@ -1,12 +1,5 @@
-@import "shared/variables.scss";
-
 .Logo {
   display: block;
   width: 90px;
   height: 21px;
-
-  @media (min-width: $screen-4) {
-    width: 134px;
-    height: 31px;
-  }
 }

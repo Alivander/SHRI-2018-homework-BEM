@@ -13,10 +13,6 @@
     flex-direction: column;
     height: 305px;
   }
-
-  @media (min-width: $screen-4) {
-    height: 440px;
-  }
 }
 
 .Card_size_m .Card-Wrapper {
@@ -37,10 +33,6 @@
     flex-shrink: 0;
     max-height: 3.6em;
     overflow: hidden;
-  }
-
-  @media (min-width: $screen-4) {
-    font-size: 30px;
   }
 }
 
@@ -75,10 +67,6 @@
   @media (min-width: $screen-3) {
     width: auto;
     padding-right: 40px;
-  }
-
-  @media (min-width: $screen-4) {
-    max-height: 1em * 1.43 * 3;
   }
 }
 

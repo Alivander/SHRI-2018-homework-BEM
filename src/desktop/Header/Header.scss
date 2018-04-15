@@ -1,0 +1,8 @@
+@import "shared/variables.scss";
+
+.Header {
+  @media (min-width: $screen-2) {
+    margin-bottom: 0;
+    border: none;
+  }
+}

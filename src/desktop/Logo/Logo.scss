@@ -1,0 +1,8 @@
+@import "shared/variables.scss";
+
+.Logo {
+  @media (min-width: $screen-4) {
+    width: 134px;
+    height: 31px;
+  }
+}

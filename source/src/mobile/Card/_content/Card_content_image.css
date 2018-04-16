@@ -1,0 +1,7 @@
+@media (min-width: 512px) {
+  .Card_content_image {
+    flex-direction: column; } }
+
+@media (min-width: 512px) {
+  .Card_content_image .Card-Title {
+    margin-right: 0; } }

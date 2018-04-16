@@ -1,0 +1,11 @@
+@media (min-width: 512px) {
+  .Card_content_image {
+    flex-direction: column; } }
+
+@media (min-width: 512px) {
+  .Card_content_image .Card-Title {
+    margin-right: 0; } }
+
+@media (min-width: 768px) {
+  .Card_content_image .Card-Title {
+    max-height: 3.6em; } }

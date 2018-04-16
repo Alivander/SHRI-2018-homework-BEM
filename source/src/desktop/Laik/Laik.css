@@ -1,0 +1,6 @@
+.Laik {
+  cursor: pointer; }
+  .Laik:focus, .Laik:hover {
+    opacity: 0.75; }
+  .Laik:active {
+    opacity: 0.5; }

@@ -1,0 +1,27 @@
+.Card_size_s .Card-Wrapper {
+  position: relative; }
+
+.Card_size_s .Card-Title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px; }
+
+.Card_size_s .Card-Picture {
+  width: 112px;
+  height: 90px; }
+
+.Card_size_s .Card-Description {
+  height: 4.29em;
+  line-height: 1.43;
+  margin-bottom: 10px;
+  overflow: hidden; }
+
+.Card_size_s .Card__Buttons {
+  display: flex;
+  align-items: center; }
+
+.Card_size_s .Card-Author {
+  margin-right: auto;
+  font-weight: 700;
+  font-style: normal; }

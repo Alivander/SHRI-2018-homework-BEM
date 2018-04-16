@@ -1,0 +1,18 @@
+.Card_content_image {
+  display: flex;
+  align-items: center; }
+
+.Card_content_image .Card-Title {
+  max-height: 4.8em;
+  margin-right: 10px;
+  overflow: hidden; }
+
+.Card_content_image .Card-Action {
+  position: absolute;
+  top: 5px;
+  right: 5px; }
+
+.Card_content_image .Card-Laik {
+  position: absolute;
+  right: 5px;
+  bottom: 10px; }

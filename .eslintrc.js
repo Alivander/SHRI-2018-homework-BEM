@@ -1,3 +1,7 @@
 module.exports = {
-    extends: 'react-app'
-}
+    extends: 'loris/es6',
+    root: true,
+    env: {
+        browser: true
+    }
+};

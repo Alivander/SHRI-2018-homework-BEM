@@ -1,0 +1,20 @@
+@media (min-width: 512px) {
+  .Page {
+    width: 512px;
+    font-size: 14px; } }
+
+@media (min-width: 768px) {
+  .Page {
+    width: 704px;
+    padding: 0; } }
+
+@media (min-width: 1200px) {
+  .Page {
+    width: 1056px;
+    font-size: 20px; } }
+
+a:focus, a:hover {
+  opacity: 0.75; }
+
+button {
+  cursor: pointer; }

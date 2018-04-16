@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "YS Text";
+  font-style: normal;
+  font-weight: 400;
+  src: local("YS Text Regular"), local("YS Text-Regular"), local("YS-Text-Regular"), url("./fonts/YS_Text-Regular.woff2") format("woff2"), url("./fonts/YS_Text-Regular.woff") format("woff");
+  font-display: swap; }
+
+@font-face {
+  font-family: "YS Text";
+  font-style: normal;
+  font-weight: 700;
+  src: local("YS Text Bold"), local("YS Text-Bold"), local("YS-Text-Bold"), url("./fonts/YS_Text-Bold.woff2") format("woff2"), url("./fonts/YS_Text-Bold.woff") format("woff");
+  font-display: swap; }
+
+html {
+  margin: 0;
+  padding: 0; }
+
+.Page {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-family: "YS Text", "Tahoma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  overflow-x: hidden; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+a {
+  text-decoration: none; }
+  a:active {
+    opacity: 0.5; }
+
+img {
+  max-width: 100%; }
+
+input {
+  font: inherit; }

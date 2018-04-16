@@ -2,13 +2,15 @@
 
 # dependencies
 /node_modules
+/source/node_modules
 /template
 
 # testing
 /coverage
 
 # production
-/build
+/source/build
+/public
 /src/**/*.css
 
 # misc

@@ -1,0 +1,36 @@
+.Card_size_l .Card-Wrapper {
+  position: relative; }
+
+.Card_size_l .Card-Link {
+  display: block; }
+
+.Card_size_l .Card-Title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 19px; }
+
+.Card_size_l .Card-Picture {
+  width: 232px;
+  height: 122px;
+  margin-bottom: 10px; }
+
+.Card_size_l .Card-Description {
+  max-height: 4.29em;
+  line-height: 1.43;
+  overflow: hidden; }
+
+.Card_size_l .Card-Action,
+.Card_size_l .Card-Laik {
+  position: absolute;
+  right: 0; }
+
+.Card_size_l .Card-Action {
+  bottom: calc(100% + 40px); }
+  @media (min-width: 360px) {
+    .Card_size_l .Card-Action {
+      bottom: calc(100% + 10px);
+      right: 35px; } }
+
+.Card_size_l .Card-Laik {
+  bottom: calc(100% + 10px); }

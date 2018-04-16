@@ -1,0 +1,29 @@
+@media (min-width: 512px) {
+  .Card_size_l {
+    grid-column: span 2;
+    display: flex;
+    height: 122px;
+    overflow: hidden; } }
+
+@media (min-width: 512px) {
+  .Card_size_l .Card-Wrapper {
+    width: 230px; } }
+
+@media (min-width: 512px) {
+  .Card_size_l .Card-Picture {
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 0; } }
+
+@media (min-width: 512px) {
+  .Card_size_l .Card-Action {
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: -40px; } }
+
+@media (min-width: 512px) {
+  .Card_size_l .Card-Laik {
+    right: auto;
+    bottom: 10px;
+    left: -40px; } }

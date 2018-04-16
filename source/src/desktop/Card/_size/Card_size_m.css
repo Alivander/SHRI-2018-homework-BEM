@@ -1,0 +1,63 @@
+@media (min-width: 512px) {
+  .Card_size_m {
+    grid-column: span 2;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden; } }
+
+@media (min-width: 768px) {
+  .Card_size_m {
+    grid-column: span 3;
+    flex-direction: column;
+    height: 305px; } }
+
+@media (min-width: 1200px) {
+  .Card_size_m {
+    height: 440px; } }
+
+@media (min-width: 768px) {
+  .Card_size_m .Card-Title {
+    flex-shrink: 0;
+    max-height: 3.6em;
+    overflow: hidden; } }
+
+@media (min-width: 1200px) {
+  .Card_size_m .Card-Title {
+    font-size: 30px; } }
+
+@media (min-width: 512px) {
+  .Card_size_m .Card-Picture {
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 0; } }
+
+@media (min-width: 768px) {
+  .Card_size_m .Card-Picture {
+    flex-grow: 1;
+    width: 100%;
+    margin-bottom: 8px; } }
+
+@media (min-width: 512px) {
+  .Card_size_m .Card-Description {
+    width: 290px;
+    flex-grow: 1; } }
+
+@media (min-width: 768px) {
+  .Card_size_m .Card-Description {
+    width: auto;
+    padding-right: 40px; } }
+
+@media (min-width: 1200px) {
+  .Card_size_m .Card-Description {
+    max-height: 4.29em; } }
+
+@media (min-width: 768px) {
+  .Card_size_m .Card-Action {
+    top: 0;
+    right: 0;
+    bottom: auto; } }
+
+@media (min-width: 512px) {
+  .Card_size_m .Card-Action,
+  .Card_size_m .Card-Laik {
+    bottom: 0; } }

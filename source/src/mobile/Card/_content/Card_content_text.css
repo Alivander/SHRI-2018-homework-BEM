@@ -1,0 +1,4 @@
+@media (min-width: 512px) {
+  .Card_content_text {
+    display: flex;
+    flex-direction: column; } }

@@ -1,0 +1,11 @@
+@media (min-width: 512px) {
+  .Content-Container {
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 8px));
+    grid-column-gap: 16px;
+    grid-auto-flow: dense; } }
+
+@media (min-width: 768px) {
+  .Content-Container {
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 16px; } }

@@ -1,0 +1,9 @@
+@media (min-width: 512px) {
+  .Page {
+    width: 512px;
+    font-size: 14px; } }
+
+@media (min-width: 768px) {
+  .Page {
+    width: 704px;
+    padding: 0; } }

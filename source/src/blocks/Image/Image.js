@@ -5,7 +5,7 @@ export default decl({
   block: 'Image',
   tag: 'picture',
   content({alt, image}) {
-    image = `server-stub/${image}`;
+    image = `api/images/${image}`;
     const src = image.substring(0, image.length - 4);
     const format = image.substring(image.length - 4);
 

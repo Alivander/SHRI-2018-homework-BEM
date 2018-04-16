@@ -20,12 +20,8 @@ router.get('/api/data', function(req, res, next) {
   res.json(data);
 });
 
-// router.get('/api/:request', function(req, res, next) {
-//   if (req.params.request === 'data') {
-//
-//     res.send(data);
-//   }
-// });
-
+router.get('/api/images/:image', function(req, res, next) {
+  res.sendFile(path.join(__dirname, '../database/img', req.params.image));
+});
 
 module.exports = router;

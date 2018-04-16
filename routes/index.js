@@ -17,7 +17,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/api/data', function(req, res, next) {
-  res.send(data);
+  res.json(data);
 });
 
 // router.get('/api/:request', function(req, res, next) {

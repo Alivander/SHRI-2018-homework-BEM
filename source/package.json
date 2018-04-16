@@ -24,7 +24,7 @@
     "build-js": "react-app-rewired build",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm-run-all build-css build-js",
-    "deploy": "npm run build && cp -f -r build/ ../public/",
+    "deploy": "npm run build && rm -rf ../public && cp -f -r build/ ../public",
     "test": "jest",
     "eject": "react-scripts eject"
   },

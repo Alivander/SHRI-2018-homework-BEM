@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "cd source && npm run deploy && cd ../ && echo 'Server start' && node ./bin/www"
+    "server-start": "node ./bin/www",
+    "dev-start": "cd source && npm run deploy && cd ../ && echo 'Server start' && npm run server-start",
+    "start": "cd source && npm install && npm run deploy && cd ../ && echo 'Server start' && npm run server-start"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",

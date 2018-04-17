@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "server-start": "node ./bin/www",
+    "bem-install": "cd source && npm install && cd ../",
     "dev-start": "cd source && npm run deploy && cd ../ && echo 'Server start' && npm run server-start",
     "start": "cd source && npm install && npm run deploy && cd ../ && echo 'Server start' && npm run server-start"
   },
